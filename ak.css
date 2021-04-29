@@ -1,0 +1,372 @@
+// COLORS IN CSS.
+
+
+ Predefined --> white,blue,black etc.
+ RGB  -->  rgb(255,0,0) etc type of choices we can made. by writing their codes
+ RGBA --> rgba(stands for red,green,blue, alpha)  rgba(255,6,43,0.0) where
+  aplha= 0.0(fully transparent) or 1.0(not transparent)
+
+
+ HEX --> In the form of Hexadecimal example :  #00ffff01
+
+ HSL  --> stands for (Hue,saturation ,lighteness)
+
+
+ // BACKGROUNDS
+
+ 1. backgroud-color: This gives the background colour to the object where it is applied
+ ex: .nameofclass{
+ 	background-color: green;
+ }
+ 
+2 background-image : syntax: background-image: url('path of 1st image') , url('path of 2nd image');
+ This applies the bg image to page we can apply more than 1 image to one page
+
+ 3. background-repeat:  no-repeat ,repeat-x, repeat-y
+
+ This property does not allow the image to make copy of itself only 1 image will appear 
+ Repeat-x only repeats it in horizontal dirns. Similarly y in vertcal one.
+
+ 4. background-position : (center) center , (bottom right), bottom left 
+ () is for x-axis means it is the position in x axis and other is in y axis.
+ 
+ We can also give it in pixels example: 50px 100px; 50 is for x and 100 is for y;
+
+ 5. background-attachement: fixed or scroll 
+ This property means whether the image will remain fixed while wescroll the page
+ up and down or it will move while scrolling.
+
+ 6. Multiple background in css 
+
+ ?????
+
+
+
+
+
+
+ 7.  //CSS BORDERS
+
+1. border-style: solid or dotted or dashed or double or groove
+ This gives the border style
+
+2. border-style:  solid  none dashed double
+
+This staement means we are giving top border as solid 
+right border as none 
+bottom as dashed
+and left as double
+
+3. border-width: 5 px 
+This statement gives the width that is thickness of the border applied.
+
+border-width: 5 px 10px;
+This statement applies 5px border to both top and bottom and 10px to both right and left
+
+border-width: 5 px 10px 1px 4px 
+This statement gives 5px to top , 10px to right , 1px to bottom and 4px to left
+
+4 border-color: red green blue orange 
+This statement applies colours to borders that is 
+red to top  
+green to right
+blue to bottom 
+orange to left.
+
+Similarly if we want to apply a single colour to all the top and right and left and bottom then 
+we simply write a singlt coor that we want to apply 
+
+5. border-radius: 2px;
+This statement defines the radius of the border similarly if we want to specify diff
+border radius for up and down and left and right then we apply same properties like
+in above ones 
+border-top-radius , border-bottom-radius similarly for left and right.
+
+
+
+// HEIGHT AND WIDTH IN CSS 
+
+height: 500px;
+width:70%; //This % means this is wrt parent in which is defined 
+for eg: let us suppose we have created a class in body tag which is named as body1
+  .body1{
+  	height:50px;
+  	width:70%;
+  	//Now this body1 is the child component of body so its width will be 70 %
+  	width of body 
+  }
+
+max-width: 600px;
+min-width: 500px;
+//These are the maximum values of width and height means they both cant take more 
+than these value in any device 
+
+
+// PADDING IN CSS
+
+//PADDING is basically the distance or space  between border and inner elements 
+
+1. padding-top :50px;
+This statement makes a pading or space of 50px from top similarly for right bottom etc
+
+2. padding:30px ;
+This statement will create padding of 30px from all 4 sides
+
+//MARGIN 
+MARGIN  is the space between border and outer element. while 
+ padding is the space between border and inner elements 
+
+3. margin-top : 20px 
+ This statement creates the margin between top and border of 20px
+
+4. margin-right : 20px
+ This statement gives the margion of 20px to right and border
+
+5. margin : 20px 40px
+  This statement gives margin of 20px to top and bottom and 40 to right and left
+
+6. margin : 20px 30px 40px 50px
+  This statement gives the 20 px to top and 30 to right and 40 to bottom and 50 to left 
+
+
+// CSS TEXT
+
+width:500px;
+This statement sets the width of elelemnt to be 500 px
+
+color: blue
+This prop sets the color of text to be  blue
+
+text-align: justify or center or right or left 
+This property sets the text to be at the center or right or left or justify
+
+text-decoration: line-through
+This property creates a cutting line that passes through all the texts
+
+text-tranform: uppercase or lowercase 
+This property sets the first letter of the text to be upper or lower case 
+
+line-height: 30px;
+This property sets the height of 30px between the lines. 
+
+letter-spacing: 10px;
+This property sets the spacing of 10px among the each letter in the line .
+
+word-spacing: 10px ;
+This propertty sets the 10px gap between each word the above one cretates the spacing
+between each letter. 
+
+
+
+
+
+// THIS IS THE VERY IMPORTANT PROPERTY IN CSS
+
+text-shadow: (horizontal distance),(vertical distance),(blurness of shadow),(color of shadow)
+This property creates the shadow of a word there are 4 properties which defines it 
+example :
+text-shadow: 5px,10px,5px,red;
+This statement creates the shadow of a word whose distance from horizontal is 10px
+and from vertical it is 10px and 5px is its blurness and colour of shadow is red 
+If we give vertical distance as -6 Then the shadow of the word goes up otherwise
+it is in the bottom.
+
+
+//LINKS IN CSS AND STYLING THEM 
+
+By default links generated in html has a line under them so to remove that line we use 
+
+a{
+	//HERE a is the anchor tag
+
+	text-decoration: none;
+
+	//THIS STATEMENT REMOVES THE LINE THAT IS UNDER THE LINE FROM THE TEXT 
+
+}
+
+	A link is in 4 states in html and css
+
+	 1. link 
+	 2. visited
+	 3. hover
+	 4. active
+
+ Syntax for all these states are :
+ a:link{
+ 	color:blue;
+
+ }
+
+ a:visited{
+ 	color:red;
+
+ }
+
+ a:hover{
+ 	color:pink;
+
+ }
+
+ a:active{
+ 	color:black;
+
+ }
+
+  This is the main order of statements that is lionk and visited states are always 
+  on the top of hover state and active state is always below the hover tag .
+
+
+//FONTS IN CSS
+
+
+font-size:30px;
+This property makes all the size of text to be 30px 
+
+font-weight:bold;
+This statement creates the text in bold manner
+
+font-style: lucida;
+This statement changes the font of the text i.e font style changes from aerial black
+to lucida.
+
+//IMPORTANT PROPERTRY OF FONTS
+
+font-variant: small-caps or inherit or initial or unset or normal ;
+ //TRY THIS WHILE MAIKING WEBSITE AND WE KNOW THE EFFECT OF EACH ON OUR TEXT.
+
+ Now to apply the fonts we have to import them from outside 
+
+ 1.--->   go to google fonts there choose any font and click on embed option and 
+         copy the 
+         link there in our html file . Now go to css rules to specify family and copy
+         that and paste it in our block of code where we want to change the font;
+
+
+
+// CSS UNITS
+
+Generally the CSS unots are of two type 
+1. Realtive 
+2. Absolute
+
+To be continued have doubt in this units section 
+
+
+
+// IMPORTANT PROPERTY OF CSS
+
+// BOX SHADOW
+
+ex:
+.p{
+	border: 10px solid black;
+	width: 500px;
+	background-color: green;
+	margin: 100px;
+	padding: 10px;
+	box-shadow: 10px, 20px,5px, red;
+ //THIS box-shadow statement is used to give the shadow to the box that we have created
+ it gives 10px is the horizpntal distance and 20px is the verical distance and border radius is 
+ 5px and colour is red;
+}
+
+
+// INSET SHADOW 
+
+box-shadow: 10px, 20px,5px, red , inset ;
+
+//Here we have to apply inset in order if we want to create a shdow inside the box 
+//In the above example the shadow that is created is created outside the box 
+
+//IF WE WANT TWO COLOURS SHADOW IN ONE BOX THEN WE WRITE:
+
+box-shadow: 10px, 20px,5px, grey  , -10px, 20px,5px, red ;
+//THIS STATEMENT CREATES TWO SHADOWS AND -10 MEANS -VE X-AXIS THAT IS THE DISTANCE 
+IS HORIZONTAL IN OPPOSITE DIRECTION .
+
+// CSS OPACITY
+
+// THIS IS THE PROPERTY BY WHICH WE CAN MAKE OBJECT TRANSPARENT IN CSS
+
+//   The opacity-level describes the transparency-level, 
+     where 1 is not transparent at all, 0.5 is 50% see-through, 
+      and 0 is completely transparent
+
+SYNTAX:
+opacity: 0 or 0.4 or 1 or 0.3 ; 
+
+If we want that when someone hovers on to the image then its opacity changes then we
+write :
+
+.img:hover{
+	opacity: 0.3;
+}
+
+
+// CSS FILTERS 
+
+.img{
+	filter: blur(10px) or brightness(40%) or contrast(10%) or drop-shadow(10px,10px,5px,red);
+
+}
+
+// This drop-shadow is mostly used 10 px is the horizontal distance and 10px is vertical
+and 5px is radius and colour is red ;
+
+
+
+// CSS GRADIENTS 
+
+// THERE ARE TWO TYPE OF GRADIENTS 
+  1. linear gradient
+  2. radial gradient
+
+
+.p{
+	background-image: linear-gradient(red, yellow,blue);
+	background-image: radial-gradient( circle ,red, yellow,blue);
+
+	//This above statement of radial-gradient will create radial gradient 
+	  in the form of circle
+}
+
+// CSS OVERFLOW 
+   
+  overflow-x:hidden or scroll or visible.
+  This statement is used to apply some overflow effect in x axis.
+
+  overflow-y: hidden or scroll or visible;
+  This statement applies the effect in y axis
+
+
+//CSS RESIZE PROPERTY 
+ 
+ problem in this 
+
+
+ // CSS LISTS
+
+ list-type-property: {value}
+ This statement is used to set the propety or style to the lists when we write this
+ statement then we will automatically get some designs in suggestions from there we 
+ chose one of the. 
+
+ list-style-image: url('Here write path of image');
+This sets the image in the list.
+
+list-style-position: outside or inside 
+This property sets whether the image that we need will be inside or outside the border 
+
+
+
+
+
+
+
+
+
+
+
+
+

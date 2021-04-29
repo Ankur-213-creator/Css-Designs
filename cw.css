@@ -1,0 +1,96 @@
+#hm {
+	color:blue;
+	font-size: 30px;
+	background-color: black;
+}
+
+#h1{
+	color: maroon;
+	font-size: 50px;
+	margin-left:300px;
+	background-color: black ;
+
+}
+
+.body{
+	background-image: linear-gradient(red, yellow,blue);
+}
+
+
+
+
+#list{
+	color:yellow;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: blue;
+	
+}
+
+#h12{
+	color:yellow;
+	background-color: black;
+	font-size: 30px;
+}
+
+#p12{
+	font-size: 30px;
+	color: pink;
+	background-color: blue;
+}
+
+#h121{
+	border-style: dashed none solid dashed;
+	border-width: 5px;
+	border-color: red blue black silver green;
+	border-radius: 2px;
+	padding:50px;
+	text-align: center;
+	background-color: yellow;
+	text-decoration: line-through;
+	line-height: 30px;
+	text-shadow: 8px 8px 2px blue;
+	box-shadow: 10px  20px 5px  black inset ;
+
+
+}
+
+#p123{
+	font-size: 30px;
+	font-color:blue;
+	font-weight: bold;
+	border:solid 5px red;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	background-color:blue;
+	box-shadow: 10px  20px 5px  green ;
+	box-shadow: 10px  20px 5px  black inset ;
+
+
+}
+
+
+   a:link{
+ 	color:blue;
+
+ }
+
+    a:visited{
+ 	color:red;
+
+ }
+
+ a:hover{
+ 	color:green;
+
+ }
+
+ a:active{
+ 	color:black;
+}
+.img.hover{
+	color: green;
+
+
+}
