@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>
+  Ankur Website</title>
+  <link rel="stylesheet" href="cw.css">
+</head>
+
+</head>
+<body class="body">
+  <h1 id="h1">Welcome to My webpage</h1>
+
+
+  <p id="hm">Use the menu to select different stylesheets</p>
+  <ul type="circle" id="list">
+    <li>StyleSheet-1</li>
+    <li>StyleSheet-2</li>
+    <li>StyleSheet-3</li>
+    <li>StyleSheet-4</li>
+    <li>No stylesheet</li>
+  </ul>
+
+
+  <h1 id="h12">Same page different stylesheets</h1>
+  <p id="p12">Lorem Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum. It was popularised in the 1960s with the release of Letraset sheets containing Loremunknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem </p>
+
+  <h2 id="h121">No stylesheets</h2>
+
+  <p id="p123"> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+  <a href="#" id="link ">No stylesheet</a>
+
+  <h3 id="13">
+  Sidebar</h3>
+
+  <p id="121">
+  ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+  <img src="https://i.ytimg.com/vi/xRZB5KBLdOA/maxresdefault.jpg" alt="" class="img">
+</img>
+
+
+
+</body>
+</html>
